@@ -14,6 +14,7 @@
 		1F2D1BFE2BFEC7B300D09BFC /* ChambappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D1BFD2BFEC7B300D09BFC /* ChambappTests.swift */; };
 		1F2D1C082BFEC7B300D09BFC /* ChambappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D1C072BFEC7B300D09BFC /* ChambappUITests.swift */; };
 		1F2D1C0A2BFEC7B300D09BFC /* ChambappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D1C092BFEC7B300D09BFC /* ChambappUITestsLaunchTests.swift */; };
+		1F91DC9E2BFED61F00D6E45A /* ComponentsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91DC9D2BFED61F00D6E45A /* ComponentsNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1F2D1C032BFEC7B300D09BFC /* ChambappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChambappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2D1C072BFEC7B300D09BFC /* ChambappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChambappUITests.swift; sourceTree = "<group>"; };
 		1F2D1C092BFEC7B300D09BFC /* ChambappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChambappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F91DC9D2BFED61F00D6E45A /* ComponentsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1F2D1BEB2BFEC7B100D09BFC /* Chambapp */ = {
 			isa = PBXGroup;
 			children = (
+				1F91DC9C2BFED60D00D6E45A /* Prototype */,
 				1F2D1BEC2BFEC7B100D09BFC /* ChambappApp.swift */,
 				1F2D1BEE2BFEC7B100D09BFC /* ContentView.swift */,
 				1F2D1BF02BFEC7B200D09BFC /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				1F2D1C092BFEC7B300D09BFC /* ChambappUITestsLaunchTests.swift */,
 			);
 			path = ChambappUITests;
+			sourceTree = "<group>";
+		};
+		1F91DC9C2BFED60D00D6E45A /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				1F91DC9D2BFED61F00D6E45A /* ComponentsNavigator.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				1F2D1BEF2BFEC7B100D09BFC /* ContentView.swift in Sources */,
 				1F2D1BED2BFEC7B100D09BFC /* ChambappApp.swift in Sources */,
+				1F91DC9E2BFED61F00D6E45A /* ComponentsNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
